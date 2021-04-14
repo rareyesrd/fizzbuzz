@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "cleanCode-practice"
+  "defaultProject": "cleanCode-practice",
+  "cli": {
+    "analytics": false
+  }
 }

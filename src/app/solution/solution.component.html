@@ -1,0 +1,6 @@
+<h2>{{ solution }}</h2>
+<ul class="solution">
+  <li *ngFor="let solution of solutionResult">
+    <app-solution-ouput [solution]="solution"></app-solution-ouput>
+  </li>
+</ul>

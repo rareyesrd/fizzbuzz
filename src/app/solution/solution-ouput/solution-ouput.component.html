@@ -1,0 +1,8 @@
+<div class="flip-card" (click)="flipResult(solution.number)">
+  <div *ngIf="numberSelected > 0; else result" [ngStyle]="{'transition':'all 15s ease'}">
+    {{ numberSelected }}
+  </div>
+  <ng-template #result>
+    {{ solution.result }}
+  </ng-template>
+</div>
